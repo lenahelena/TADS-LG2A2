@@ -46,8 +46,11 @@ public class Pessoa {
         if(rendaMes > 0){
             System.out.println("Terminou o mês com saldo positivo.");
         }
-        else{(rendaMes < 0)
+        else if(rendaMes < 0){
             System.out.println("Terminou o mês com saldo negativo.");
+        }
+        else{
+            System.out.println("Terminou o mês com saldo zerado.");
         }
         return rendaMes;
 }
