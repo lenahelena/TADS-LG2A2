@@ -5,8 +5,9 @@ public class Mecanino extends Pessoa {
     
     private String especialidade;
   
-    public Mecanico (String cpf, String nome, String especialidade){
-        super(cpf, nome);
+    public Mecanino (String cpf, String nome, String especialidade){
+        super.setCpf(cpf);
+        super.setNome(nome);
         this.especialidade = especialidade;
     }
     
